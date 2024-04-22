@@ -8,13 +8,13 @@ In Spring Boot 3.x, Hikari emerges as the default DataSource implementation, as 
 
 To utilize the latest version of Hikari in your Spring Boot 3.x project, you'll need to explicitly add the Hikari dependency to your pom.xml file:
 
-`
+```
 <dependency>
     <groupId>com.zaxxer</groupId>
     <artifactId>HikariCP</artifactId>
     <version><!-- Latest version of Hikari --></version>
 </dependency>
-`
+```
 Replace <!-- Latest version of Hikari --> with the actual version number you wish to use, ensuring it matches the compatibility requirements of your Spring Boot version.
 
 By including this dependency, you can leverage the features and improvements introduced in the latest version of Hikari in your Spring Boot application.
